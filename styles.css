@@ -1,0 +1,828 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (min-width: 800px) {
+  .headding {
+    display: none;
+    font-weight: 100;
+  }
+
+  header {
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    background-color: white;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+
+  .partners h3 {
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(253, 109, 57);
+  }
+
+  nav h1 {
+    transition: 0.5s;
+  }
+
+  .buganda {
+    color: rgb(253, 109, 57);
+    transition: 0.5s;
+  }
+
+  nav img {
+    height: 40px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+    color: rgb(102, 100, 100);
+  }
+
+  nav ul li a {
+    margin: 0 10px;
+    color: rgb(102, 100, 100);
+  }
+
+  nav ul li a:hover {
+    margin: 0 10px;
+    color: rgb(253, 109, 57);
+    transition: 0.5s;
+  }
+
+  nav ul li button {
+    border: 3px solid rgb(253, 109, 57);
+    color: rgb(253, 109, 57);
+    padding: 5px;
+    background-color: white;
+  }
+
+  .topcontact {
+    width: 100%;
+    height: 40px;
+    background-color: #53555b;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .topcontact ul {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 70px;
+  }
+
+  .topcontact ul li {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  .intro-wrapper {
+    width: 70vw;
+  }
+
+  .intro-wrapper h3 {
+    color: rgb(240, 71, 50);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-wrapper h1 {
+    color: rgb(240, 71, 50);
+    font-size: 35px;
+    font-weight: 100;
+    margin: 20px 0;
+  }
+
+  .tagline {
+    margin: 20px 0;
+    border: 5px solid white;
+    padding: 15px;
+    width: 70%;
+  }
+
+  .intro-wrapper h6 {
+    font-weight: 800;
+    color: black;
+    font-size: 15px;
+  }
+
+  .mainprogram {
+    display: flex;
+    flex-direction: column;
+    height: 56vh;
+    color: white;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .program-wrapper {
+    display: flex;
+    width: 70%;
+    margin: 10px 0;
+  }
+
+  .program-wrapper ul {
+    display: flex;
+    padding: 10px;
+  }
+
+  .program-wrapper ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3f4148;
+    margin: 2px;
+    justify-content: center;
+    color: rgb(236, 236, 236);
+    height: 200px;
+    padding: 20px;
+  }
+
+  .participate {
+    color: rgb(240, 71, 50);
+  }
+
+  .program-wrapper ul li h6 {
+    text-align: center;
+  }
+
+  .program-wrapper ul li h3 {
+    text-align: center;
+    color: rgb(240, 71, 50);
+  }
+
+  .see {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(253, 109, 57);
+  }
+
+  .see-a {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .speakers {
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+  }
+
+  .speakers ul {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .speakers ul li {
+    display: flex;
+    align-items: start;
+    width: 45%;
+    margin: 10px;
+  }
+
+  .speakers ul li img {
+    height: 130px;
+    width: 190px;
+    margin: 0 10px;
+  }
+
+  .partners {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(66, 65, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sponsered {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .kings {
+    font-size: 35px;
+    color: #b1b0b0;
+    margin: 10px;
+  }
+
+  .gods {
+    font-size: 35px;
+    color: #676767;
+    margin: 10px;
+  }
+
+  .kings:hover {
+    cursor: pointer;
+    font-size: 50px;
+    color: yellow;
+    transition: 0.8s;
+  }
+
+  .creatives {
+    display: flex;
+    align-items: center;
+  }
+
+  .creatives-h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  footer {
+    padding: 40px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  /* This is where the about me css starts from  */
+  .intro-section {
+    background-image: url("./Assets/Images/desktop.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding: 100px 110px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-wrappers {
+    width: 70vw;
+  }
+
+  .intro-wrappers-h3 {
+    color: rgb(240, 71, 50);
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .intro-wrappers h1 {
+    color: rgb(240, 71, 50);
+    font-size: 45px;
+    font-weight: 100;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .intro-wrapper-h4 {
+    font-weight: 800;
+    color: black;
+    font-size: 20px;
+  }
+
+  .intro-wrapper-h6 {
+    font-weight: 800;
+    color: black;
+    font-size: 15px;
+  }
+
+  .intro-sections {
+    background-image: url(./Assets/Images/desktop.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    padding: 63px 110px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .intro-sections p {
+    width: 70%;
+    text-decoration: dashed;
+    border: 2px solid lightgray;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(107, 107, 107);
+  }
+
+  .intro-sections span {
+    color: rgb(75, 75, 75);
+  }
+
+  .intro-sectioned {
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding: 63px 110px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-sectioned p {
+    width: 70%;
+    text-decoration: dashed;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+  }
+
+  .intro-sectioned-h3 {
+    text-decoration: dashed;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+  }
+
+  .intro-sectioned span {
+    text-decoration: dashed;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+  }
+
+  .kingsman {
+    color: rgb(112, 112, 112);
+    border: 4px solid gray;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uganda {
+    color: yellow;
+  }
+
+  .past {
+    text-align: center;
+    color: rgb(74, 74, 74);
+  }
+
+  .past ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .past ul li {
+    width: 40%;
+    background-color: yellow;
+    align-items: center;
+    height: 300px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./Assets/Images/desktop.png');
+    border: 2px solid gray;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topcontact {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .intro-wrapper {
+    width: 70vw;
+  }
+
+  .intro-wrapper h3 {
+    color: rgb(240, 71, 50);
+    font-size: 28px;
+    margin: 80px 0 0 0;
+    padding: 0;
+  }
+
+  .intro-wrapper h1 {
+    color: rgb(240, 71, 50);
+    font-size: 35px;
+    font-weight: 100;
+    margin: 20px 0;
+  }
+
+  .tagline {
+    margin: 30px 0;
+    color: rgb(53, 53, 53);
+  }
+
+  .intro-wrapper h6 {
+    font-weight: 800;
+    color: #2e2e2e;
+    font-size: 15px;
+  }
+
+  .mainprogram {
+    display: flex;
+    justify-content: center;
+    background-color: #31343a;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  .program-wrapper {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .program-wrapper ul {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .partners-h3 {
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(253, 109, 57);
+  }
+
+  .program-wrapper ul li {
+    display: flex;
+    align-items: center;
+    background-color: #3f4148;
+    margin: 2px;
+    justify-content: center;
+    color: rgb(236, 236, 236);
+    height: 150px;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .participate {
+    color: rgb(240, 71, 50);
+  }
+
+  .program-wrapper ul li h6 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .program-wrapper ul li h3 {
+    text-align: center;
+    color: #f04732;
+    margin: 15px;
+  }
+
+  .see {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(253, 109, 57);
+  }
+
+  .see a {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(253, 109, 57);
+    border: 1px solid rgb(253, 109, 57);
+    padding: 5px 20px;
+  }
+
+  .speakers {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+    flex-direction: column;
+  }
+
+  .speakers ul {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .speakers ul li {
+    display: flex;
+    align-items: start;
+    width: 95%;
+    margin: 10px 0;
+  }
+
+  .speakers ul li img {
+    height: 120px;
+    width: 180px;
+    margin: 0 10px;
+  }
+
+  .partners {
+    width: 100%;
+    background-color: rgb(66, 65, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+  }
+
+  .sponsered {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .kings {
+    font-size: 35px;
+    color: #b1b0b0;
+    margin: 10px;
+  }
+
+  .gods {
+    font-size: 35px;
+    color: #676767;
+    margin: 10px;
+  }
+
+  .kings:hover {
+    cursor: pointer;
+    font-size: 50px;
+    color: yellow;
+    transition: 0.8s;
+  }
+
+  .creatives {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  .creatives-h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: rgb(59, 59, 59);
+  }
+
+  /* This will act on the navbar */
+  .Navmenu.active {
+    left: 0;
+    transition: 0.8s;
+    padding: 20px 0 0 20px;
+  }
+
+  .bar {
+    height: 3px;
+    background: #67798e;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .Navmenu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    background: #fff;
+    width: 100%;
+    left: -120%;
+    opacity: 1;
+    top: 0;
+    gap: 30px;
+    padding-top: 60px;
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s ease;
+    background: #67798e;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    transition: 0.5s ease;
+    background: #67798e;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+    transition: 0.5s ease all;
+    background: gray;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 15px;
+    width: 20px;
+    gap: 3px;
+    margin: 5px;
+    z-index: 2;
+  }
+
+  .headding {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    flex-direction: row-reverse;
+  }
+
+  .nav-h3 {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  .title {
+    color: #f04732;
+  }
+
+  .speakership {
+    width: 100px;
+    object-fit: cover;
+  }
+
+  /* This is where the about section mobile starts form  */
+  .intro-sectioned-h3 {
+    text-decoration: dashed;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+  }
+
+  .intro-wrappers {
+    width: 70vw;
+  }
+
+  .intro-wrappers-h3 {
+    color: rgb(240, 71, 50);
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .intro-wrappers h1 {
+    color: rgb(240, 71, 50);
+    font-size: 25px;
+    font-weight: 100;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .intro-wrapper-h4 {
+    font-weight: 800;
+    color: black;
+    font-size: 20px;
+  }
+
+  .intro-wrapper-h6 {
+    font-weight: 800;
+    color: black;
+    font-size: 10px;
+  }
+
+  .intro-sections {
+    background-image: url(./Assets/Images/desktop.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-sections p {
+    width: 95%;
+    text-decoration: dashed;
+    border: 2px solid lightgray;
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(107, 107, 107);
+  }
+
+  .intro-sections span {
+    color: rgb(75, 75, 75);
+    padding: 0 30px;
+  }
+
+  .intro-sectioned {
+    background-repeat: no-repeat;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-sectioned p {
+    text-decoration: dashed;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+  }
+
+  .intro-sectioned span {
+    text-decoration: dashed;
+    padding: 20px;
+    background-color: white;
+    line-height: 25px;
+    color: rgb(59, 59, 59);
+  }
+
+  .kingsman {
+    color: rgb(112, 112, 112);
+    border: 4px solid gray;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uganda {
+    color: yellow;
+  }
+
+  .past {
+    text-align: center;
+    color: rgb(74, 74, 74);
+  }
+
+  .past ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .past ul li {
+    width: 90%;
+    background-color: yellow;
+    align-items: center;
+    height: 250px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./Assets/Images/desktop.png');
+    border: 1px solid lightgray;
+  }
+
+  .nav-links {
+    color: gray;
+    font-size: 27px;
+    flex: auto;
+  }
+}
